@@ -5,9 +5,9 @@ public class Ejemplos {
 	}
 
 	public void ciclo() {
-		String mens = "Error ";
-		for(int c =1; c < 11; c++) {
-			System.out.println(mens + c);
+		int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10}; 
+		for(int c: intArray) {
+			System.out.println("Error " + c);
 		}
 	}
 
